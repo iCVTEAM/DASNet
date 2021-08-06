@@ -26,7 +26,7 @@ Please see details in http://cvteam.net/projects/2020/DASNet/
 
 ## Train
 
-RGB-D datasets: [RGBD-TR](http://cvteam.net/projects/2020/DASNet/figs/training%20set.zip)
+RGB-D training sets: [RGBD-TR](http://cvteam.net/projects/2020/DASNet/figs/training%20set.zip)
 
 ```shell script
 cd src
