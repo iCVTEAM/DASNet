@@ -1,6 +1,7 @@
 #  Is Depth Really Necessary for Salient Object Detection?
 
-The PyTorch implementation of the [DASNet](https://dl.acm.org/doi/10.1145/3394171.3413855)
+The PyTorch implementation of the [DASNet](https://dl.acm.org/doi/10.1145/3394171.3413855).
+
 Please see details in http://cvteam.net/projects/2020/DASNet/
 
 
