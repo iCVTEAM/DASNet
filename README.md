@@ -19,19 +19,15 @@ Please see details in http://cvteam.net/projects/2020/DASNet/
 - eval: test results
 - data: datasets
 
-## Download datasets
-
-Training sets
-
-- RGB-D: [RGBD-TR](http://cvteam.net/projects/2020/DASNet/figs/training%20set.zip)
-- RGB: [DUTS-TR](http://saliencydetection.net/duts/) + [EstimatedDepth](http://cvteam.net/projects/2020/DASNet/figs/estimated depth.zip) 
-
 ## Results
 
 - RGB-D: [[NJU2K\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/NJU2K.zip) [[NLPR\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/NLPR.zip) [[STERE\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/STERE.zip) [[DES\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/DES.zip) [[SSD\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/SSD.zip) [[LFSD\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/LFSD.zip) [[SIP\]](http://cvteam.net/projects/2020/DASNet/figs/RGBD/SIP.zip) 
 - RGB: [[ECSSD\]](http://cvteam.net/projects/2020/DASNet/figs/RGB/ECSSD.zip) [[DUTS\]](http://cvteam.net/projects/2020/DASNet/figs/RGB/DUTS.zip) [[DUT-OMRON\]](http://cvteam.net/projects/2020/DASNet/figs/RGB/DUT-OMRON.zip) [[HKU-IS\]](http://cvteam.net/projects/2020/DASNet/figs/RGB/HKU-IS.zip) [[PASCAL-S\]](http://cvteam.net/projects/2020/DASNet/figs/RGB/PASCAL-S.zip) 
 
 ## Train
+
+RGB-D datasets: [RGBD-TR](http://cvteam.net/projects/2020/DASNet/figs/training%20set.zip)
+
 ```shell script
 cd src
 python train.py
