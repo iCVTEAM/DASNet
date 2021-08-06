@@ -1,10 +1,53 @@
-# DASNet
-Is Depth Really Necessary for Salient Object Detection?  ACM MM 2020
+#  Is Depth Really Necessary for Salient Object Detection?
 
-Please see details in [http://cvteam.net/projects/2020/DASNet/](http://cvteam.net/projects/2020/DASNet/)
+The PyTorch implementation of the [DASNet](https://dl.acm.org/doi/10.1145/3394171.3413855)
+Please see details in http://cvteam.net/projects/2020/DASNet/
 
-## Introduction
 
-![pipeline](figs/pipeline.png)
+## Prerequisites
+- [Python 3.6](https://www.python.org/)
+- [Pytorch 1.0+](http://pytorch.org/)
+- [OpenCV 4.0](https://opencv.org/)
+- [Numpy](https://numpy.org/)
+- [TensorboardX](https://github.com/lanpa/tensorboardX)
+- [Apex](https://github.com/NVIDIA/apex)
 
-Salient object detection (SOD) is a crucial and preliminary task for many computer vision applications, which have made progress with deep CNNs. Most of the existing methods mainly rely on the RGB information to distinguish the salient objects, which faces difficulties in some complex scenarios. To solve this, many recent RGBD-based networks are proposed by adopting the depth map as an independent input and fuse the features with RGB information. Taking the advantages of RGB and RGBD methods, we propose a novel depth-aware salient object detection framework, which has following superior designs: 1) It does not rely on depth data in the testing phase. 2) It comprehensively optimizes SOD features with multi-level depth-aware regularizations. 3) The depth information also serves as error-weighted map to correct the segmentation process. **With these insightful designs combined, we make the first attempt in realizing an unified depth-aware framework with only RGB information as input for inference, which not only surpasses the state-of-the-art performance on five public RGB SOD benchmarks, but also surpasses the RGBD-based methods on five benchmarks by a large margin, while adopting less information and implementation light-weighted.**
+
+## DIR
+- res: resnet pre-trained models
+- eval: test results
+- data: datasets
+
+## Train
+```shell script
+cd src
+python train.py
+```
+
+## Test
+```shell script
+cd src
+python test.py
+```
+
+## Evaluation
+```shell
+cd eval
+matlab
+main
+```
+
+## Citation
+- If you find this work is helpful, please cite our paper
+```
+@inproceedings{zhao2020DASNet,
+  title={Is depth really necessary for salient object detection?},
+  author={Zhao, Jiawei and Zhao, Yifan and Li, Jia and Chen, Xiaowu},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={1745--1754},
+  year={2020}
+}
+```
+## Reference
+This project is based on the following implementations:
+- [https://github.com/weijun88/F3Net](https://github.com/weijun88/F3Net)
