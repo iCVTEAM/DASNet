@@ -2,7 +2,10 @@
 
 The PyTorch implementation of the [DASNet](https://dl.acm.org/doi/10.1145/3394171.3413855).
 
-Please see details in http://cvteam.net/projects/2020/DASNet/
+Please see details at http://cvteam.net/projects/2020/DASNet/
+
+Personal Page 
+[https://zhao1f.github.io/](https://zhao1f.github.io/).
 
 
 ## Prerequisites
@@ -47,7 +50,7 @@ main
 ```
 
 ## Citation
-- If you find this work is helpful, please cite our paper
+- If you find this work helpful, please cite our paper
 ```
 @inproceedings{zhao2020DASNet,
   title={Is depth really necessary for salient object detection?},
